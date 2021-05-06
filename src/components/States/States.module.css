@@ -1,0 +1,75 @@
+.active {
+  background-color: lightseagreen;
+}
+
+.confirmed {
+  background-color: lightcoral;
+}
+
+.recovered {
+  background-color: green;
+}
+
+.deaths {
+  background-color: red;
+}
+
+.h1 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.tablecontainer {
+  overflow: hidden;
+  /* overflow-x: auto; */
+  /* position: relative; */
+  width: auto;
+  /* max-width: 320px;
+    min-width: 320px;  */
+
+  /* @media screen and (max-width: 320px){
+        width: 320px;
+         
+
+      } */
+
+  /* @media screen and (max-width: 1440px){
+        width: 800px;
+    } */
+
+  /* padding-top: 20px; */
+  /* overflow-x: scroll; */
+  /* table-layout: fixed; */
+  /* width: 100%; */
+  /* display: flex; */
+}
+
+.table {
+  padding-top: 20px;
+  width: auto;
+  /* table-layout: fixed; */
+  /* width: 100%; */
+  /* position: relative; */
+  overflow-x: auto;
+  /* 
+
+     white-space: nowrap; */
+
+  /* width: auto; */
+  /* width: 95%;
+    display: block;*/
+  /* overflow-x: auto; */
+}
+
+.tr {
+}
+
+.th {
+  white-space: nowrap;
+  text-align: center !important;
+}
+
+.td {
+  text-align: center !important;
+  white-space: nowrap;
+}
